@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.board{
+    background-color: #ccc;
+    height: 100vmin;
+    width: 100vmin;
+    display: grid;
+    grid-template-rows: repeat(21,1fr);
+    grid-template-columns: repeat(21,1fr);
+}
+.snake{
+    background-color: rgb(41, 142, 182);
+    border: 0.25vmin solid black;
+}
+.food{
+    background-color: rgb(224, 224, 89);
+    border: 0.25vmin solid black;
+}
+.results{
+    display: none ;
+}
+.showResults{
+    position: absolute;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(256,256,256,0.5);
+    height: 100%;
+    width: 100%;
+}
+.ok{
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 20px;
+}
