@@ -85,7 +85,7 @@ function dyingConditions(){
             results.classList.add('showResults')
             gameBoard.style.display = 'none';
             restartButton.addEventListener('click',()=>{
-                window.location = 'index.html'
+                window.location = './index.html'
             })
         }
     }
@@ -93,7 +93,7 @@ function dyingConditions(){
             results.classList.add('showResults')
             gameBoard.style.display = 'none';
             restartButton.addEventListener('click',()=>{
-                window.location = 'index.html'
+                window.location = './index.html'
             })
     }
 }
